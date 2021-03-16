@@ -40,7 +40,7 @@ namespace BankAccount
         {
             if (amt < 0)
             {
-                throw new ArgumentException("You can not withdraw a negative balance");
+                throw new ArgumentException("You can not withdraw a negative amount");
             }
             if (amt > Balance)
             {
